@@ -1,0 +1,98 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "city",
+		"streamId": "city",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_headerMenuList": [
+			{
+				"label": "Home",
+				"link": "https://www.dotsquares.com/our-company",
+				"linkType": "OTHER"
+			},
+			{
+				"label": "About",
+				"link": "https://www.dotsquares.com/our-company",
+				"linkType": "URL"
+			}
+		],
+		"c_logo": {
+			"height": 44,
+			"url": "https://a.mktgcdn.com/p-sandbox/-UTpz7hwLqcOW8b63HklBIFxKs53YWOmiga63QJf3cY/260x44.png",
+			"width": 260
+		},
+		"id": "global_header_menu",
+		"meta": {
+			"entityType": {
+				"id": "c_manage_global_data",
+				"uid": 111357
+			},
+			"locale": "en"
+		},
+		"name": "Global Header Menu",
+		"uid": 37927047
+	},
+	"businessId": 3198898,
+	"c_addressRegionDisplayName": "New York",
+	"dm_directoryChildren": [
+		{
+			"name": "Turtlehead Tacos",
+			"slug": "location17-albany"
+		}
+	],
+	"dm_directoryParents": [
+		{
+			"meta": {
+				"entityType": {
+					"id": "ce_root",
+					"uid": 111455
+				},
+				"locale": "en"
+			},
+			"name": "Banner Bank",
+			"slug": "banner-bank"
+		},
+		{
+			"meta": {
+				"entityType": {
+					"id": "ce_country",
+					"uid": 111453
+				},
+				"locale": "en"
+			},
+			"name": "US",
+			"slug": "us"
+		},
+		{
+			"meta": {
+				"entityType": {
+					"id": "ce_region",
+					"uid": 111454
+				},
+				"locale": "en"
+			},
+			"name": "NY",
+			"slug": "ny"
+		}
+	],
+	"id": "banner-bank-directory_us_ny_albany",
+	"key": "0:city:knowledgeGraph:37965151:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "ce_city",
+			"uid": 111452
+		},
+		"locale": "en"
+	},
+	"name": "Albany",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "albany",
+	"uid": 37965151
+}
