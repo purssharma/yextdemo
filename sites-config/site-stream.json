@@ -1,0 +1,17 @@
+{
+  "$id": "site-entity",
+  "filter": {
+  "entityIds": ["global_header_menu"]
+  },
+  "source": "knowledgeGraph",
+  "fields": [
+      "name",
+      "c_headerMenuList",
+      "c_logo"
+
+  ],
+  "localization": {
+    "locales": ["en"],
+    "primary": false
+  }
+}

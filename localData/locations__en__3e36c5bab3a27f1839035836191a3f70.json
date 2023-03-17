@@ -1,0 +1,157 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "locations",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_headerMenuList": [
+			{
+				"label": "Home",
+				"link": "https://www.dotsquares.com/our-company",
+				"linkType": "OTHER"
+			},
+			{
+				"label": "About",
+				"link": "https://www.dotsquares.com/our-company",
+				"linkType": "URL"
+			}
+		],
+		"c_logo": {
+			"height": 44,
+			"url": "https://a.mktgcdn.com/p-sandbox/-UTpz7hwLqcOW8b63HklBIFxKs53YWOmiga63QJf3cY/260x44.png",
+			"width": 260
+		},
+		"id": "global_header_menu",
+		"meta": {
+			"entityType": {
+				"id": "c_manage_global_data",
+				"uid": 111357
+			},
+			"locale": "en"
+		},
+		"name": "Global Header Menu",
+		"uid": 37927047
+	},
+	"address": {
+		"city": "New York",
+		"countryCode": "US",
+		"line1": "60 W 23rd St",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "New York",
+		"postalCode": "10010",
+		"region": "NY"
+	},
+	"businessId": 3198898,
+	"cityCoordinate": {
+		"latitude": 40.78200149536133,
+		"longitude": -73.83170318603516
+	},
+	"hours": {
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"holidayHours": [
+			{
+				"date": "2023-07-04",
+				"isClosed": true
+			}
+		],
+		"monday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"saturday": {
+			"openIntervals": [
+				{
+					"end": "20:00",
+					"start": "08:00"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		}
+	},
+	"id": "location6",
+	"key": "0:location:knowledgeGraph:37829917:en",
+	"locale": "en",
+	"mainPhone": "+12129943900",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "en"
+	},
+	"name": "Turtlehead Tacos",
+	"photoGallery": [
+		{
+			"image": {
+				"height": 800,
+				"url": "http://a.mktgcdn.com/p-sandbox/EOfw4a7y-p7RwzI8oosYqgfE_gJuOIKx5tuGMa2uPOA/1200x800.jpg",
+				"width": 1200
+			}
+		},
+		{
+			"image": {
+				"height": 408,
+				"url": "http://a.mktgcdn.com/p-sandbox/fmIYfJlt1p_XnjNI82SvWCff9eX8RWFI8jc78FH_bgo/612x408.jpg",
+				"width": 612
+			}
+		},
+		{
+			"image": {
+				"height": 1706,
+				"url": "http://a.mktgcdn.com/p-sandbox/dEj7z6VxDoOpWmw1XyT2MxDAEsMaHDBNslgmhZGl4TE/2560x1706.jpg",
+				"width": 2560
+			}
+		}
+	],
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "location6-chelsea",
+	"timezone": "America/New_York",
+	"uid": 37829917,
+	"yextDisplayCoordinate": {
+		"latitude": 40.7425717,
+		"longitude": -73.9923639
+	}
+}

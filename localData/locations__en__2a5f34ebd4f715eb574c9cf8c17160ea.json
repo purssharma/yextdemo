@@ -1,0 +1,157 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "locations",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_headerMenuList": [
+			{
+				"label": "Home",
+				"link": "https://www.dotsquares.com/our-company",
+				"linkType": "OTHER"
+			},
+			{
+				"label": "About",
+				"link": "https://www.dotsquares.com/our-company",
+				"linkType": "URL"
+			}
+		],
+		"c_logo": {
+			"height": 44,
+			"url": "https://a.mktgcdn.com/p-sandbox/-UTpz7hwLqcOW8b63HklBIFxKs53YWOmiga63QJf3cY/260x44.png",
+			"width": 260
+		},
+		"id": "global_header_menu",
+		"meta": {
+			"entityType": {
+				"id": "c_manage_global_data",
+				"uid": 111357
+			},
+			"locale": "en"
+		},
+		"name": "Global Header Menu",
+		"uid": 37927047
+	},
+	"address": {
+		"city": "Chicago",
+		"countryCode": "US",
+		"line1": "2100 N Elston Ave",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "Illinois",
+		"postalCode": "60614",
+		"region": "IL"
+	},
+	"businessId": 3198898,
+	"cityCoordinate": {
+		"latitude": 41.88425064086914,
+		"longitude": -87.6324462890625
+	},
+	"hours": {
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"holidayHours": [
+			{
+				"date": "2023-07-04",
+				"isClosed": true
+			}
+		],
+		"monday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"saturday": {
+			"openIntervals": [
+				{
+					"end": "20:00",
+					"start": "08:00"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		}
+	},
+	"id": "location10",
+	"key": "0:location:knowledgeGraph:37829935:en",
+	"locale": "en",
+	"mainPhone": "+12129943900",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "en"
+	},
+	"name": "Turtlehead Tacos",
+	"photoGallery": [
+		{
+			"image": {
+				"height": 800,
+				"url": "http://a.mktgcdn.com/p-sandbox/EOfw4a7y-p7RwzI8oosYqgfE_gJuOIKx5tuGMa2uPOA/1200x800.jpg",
+				"width": 1200
+			}
+		},
+		{
+			"image": {
+				"height": 408,
+				"url": "http://a.mktgcdn.com/p-sandbox/fmIYfJlt1p_XnjNI82SvWCff9eX8RWFI8jc78FH_bgo/612x408.jpg",
+				"width": 612
+			}
+		},
+		{
+			"image": {
+				"height": 1706,
+				"url": "http://a.mktgcdn.com/p-sandbox/dEj7z6VxDoOpWmw1XyT2MxDAEsMaHDBNslgmhZGl4TE/2560x1706.jpg",
+				"width": 2560
+			}
+		}
+	],
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "location10-bucktown",
+	"timezone": "America/Chicago",
+	"uid": 37829935,
+	"yextDisplayCoordinate": {
+		"latitude": 41.918962,
+		"longitude": -87.669866
+	}
+}
