@@ -123,24 +123,38 @@
 	"name": "Turtlehead Tacos",
 	"photoGallery": [
 		{
+			"description": "Lorem Ipsum is simply dummy",
 			"image": {
+				"alternateText": "Lorem Ipsum is simply dummy",
 				"height": 800,
-				"url": "http://a.mktgcdn.com/p-sandbox/EOfw4a7y-p7RwzI8oosYqgfE_gJuOIKx5tuGMa2uPOA/1200x800.jpg",
+				"url": "https://a.mktgcdn.com/p-sandbox/EOfw4a7y-p7RwzI8oosYqgfE_gJuOIKx5tuGMa2uPOA/1200x800.jpg",
 				"width": 1200
 			}
 		},
 		{
+			"description": "It is a long established fact",
 			"image": {
+				"alternateText": "It is a long established fact",
 				"height": 408,
-				"url": "http://a.mktgcdn.com/p-sandbox/fmIYfJlt1p_XnjNI82SvWCff9eX8RWFI8jc78FH_bgo/612x408.jpg",
+				"url": "https://a.mktgcdn.com/p-sandbox/fmIYfJlt1p_XnjNI82SvWCff9eX8RWFI8jc78FH_bgo/612x408.jpg",
 				"width": 612
 			}
 		},
 		{
+			"description": "It is a long established fact2",
 			"image": {
+				"alternateText": "It is a long established fact2",
 				"height": 1706,
-				"url": "http://a.mktgcdn.com/p-sandbox/dEj7z6VxDoOpWmw1XyT2MxDAEsMaHDBNslgmhZGl4TE/2560x1706.jpg",
+				"url": "https://a.mktgcdn.com/p-sandbox/dEj7z6VxDoOpWmw1XyT2MxDAEsMaHDBNslgmhZGl4TE/2560x1706.jpg",
 				"width": 2560
+			}
+		},
+		{
+			"description": "Lorem Ipsum is simply dummy 3",
+			"image": {
+				"height": 408,
+				"url": "https://a.mktgcdn.com/p-sandbox/fmIYfJlt1p_XnjNI82SvWCff9eX8RWFI8jc78FH_bgo/612x408.jpg",
+				"width": 612
 			}
 		}
 	],

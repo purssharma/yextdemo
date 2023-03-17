@@ -641,3 +641,11 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 
 .gallery-images li{   float: left;  margin: 25px;}
 .gallery-images li img{   width: 300px;}
+
+.container-lg {display: flex;}
+ul.header-menu {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  align-items: center;
+}

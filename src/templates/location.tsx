@@ -146,7 +146,7 @@ export const transformProps: TransformProps<ExternalApiData> = async (
   var location = `${data.document.yextDisplayCoordinate ? data.document.yextDisplayCoordinate.latitude : data.document.displayCoordinate.latitude},${data.document.yextDisplayCoordinate ? data.document.yextDisplayCoordinate.longitude : data.document.displayCoordinate.longitude}`;
 
     const url = `${AnswerExperienceConfig.endpoints.verticalSearch}?experienceKey=${AnswerExperienceConfig.experienceKey}&api_key=${AnswerExperienceConfig.apiKey}&v=20220511&version=${AnswerExperienceConfig.experienceVersion}&locale=${AnswerExperienceConfig.locale}&location=${location}&verticalKey=${AnswerExperienceConfig.verticalKey}&limit=4&retrieveFacets=true&skipSpellCheck=false&sessionTrackingEnabled=true&source=STANDARD`;
- //console.log(url)
+ console.log(url)
   const externalApiData = (await fetch(url).then((res: any) =>
     res.json()
 
@@ -300,7 +300,7 @@ breadcrumbScheme.push({
     name: document.name,
   },
 });
-console.log(photoGallery)
+//console.log(photoGallery)
   let imageurl = photoGallery ? photoGallery.map((element: any) => {
     return element.image.url
   }) : null;
@@ -385,7 +385,7 @@ console.log(photoGallery)
             <div className="nearby-sec-inner">
                 <ul className="gallery-images">            
                       {photoGallery.map((photos: any) => {
-                            console.log(photos.image.url);
+                           // console.log(photos.image.url);
                             return (<li><img src={photos.image.url} alt={photos.image.alternateText} /><h4>{photos.description}</h4></li>)
                       })}
                 </ul>
