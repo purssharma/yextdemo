@@ -40,6 +40,7 @@
 	"c_addressRegionDisplayName": "New York",
 	"dm_directoryChildren": [
 		{
+			"id": "location17",
 			"name": "Turtlehead Tacos",
 			"slug": "location17-albany"
 		}

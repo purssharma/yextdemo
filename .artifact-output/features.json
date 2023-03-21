@@ -33,6 +33,14 @@
       }
     },
     {
+      "name": "locator",
+      "streamId": "Locator",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
       "name": "robots",
       "templateType": "JS",
       "staticPage": {
@@ -85,6 +93,7 @@
         "dm_directoryParents.slug",
         "dm_directoryParents.meta",
         "dm_directoryChildren.name",
+        "dm_directoryChildren.id",
         "dm_directoryChildren.slug"
       ],
       "localization": {
@@ -147,6 +156,23 @@
       "localization": {
         "locales": [
           "en"
+        ],
+        "primary": false
+      }
+    },
+    {
+      "$id": "Locator",
+      "fields": [
+        "name"
+      ],
+      "filter": {
+        "entityIds": [
+          "global-data"
+        ]
+      },
+      "localization": {
+        "locales": [
+          "en_GB"
         ],
         "primary": false
       }

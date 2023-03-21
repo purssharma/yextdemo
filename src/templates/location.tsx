@@ -108,7 +108,7 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
   //   url += `${document.slug.toString()}.html`;
   // }
 
-  return document.id;
+  return document.address.countryCode +"/"+ document.address.region + "/"+ document.address.city +"/"+document.id + ".html";
 };
 /**
  * Defines a list of paths which will redirect to the path created by getPath.

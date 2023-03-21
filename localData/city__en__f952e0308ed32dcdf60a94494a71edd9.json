@@ -40,14 +40,17 @@
 	"c_addressRegionDisplayName": "Illinois",
 	"dm_directoryChildren": [
 		{
+			"id": "location9",
 			"name": "Turtlehead Tacos Test",
 			"slug": "location9-north-avenue"
 		},
 		{
+			"id": "location10",
 			"name": "Turtlehead Tacos",
 			"slug": "location10-bucktown"
 		},
 		{
+			"id": "location11",
 			"name": "Turtlehead Tacos",
 			"slug": "location11-south-loop"
 		}

@@ -40,6 +40,7 @@ export const config: TemplateConfig = {
 };
 
 export const getPath: GetPath<TemplateProps> = ({document}) => {
+  
   return `${document.id}`;
 };
 
@@ -101,7 +102,7 @@ export const getPath: GetPath<TemplateProps> = ({document}) => {
         <div className="centered-container">         
           <div className="section space-y-14 px-10">
               <div className="space-y-6">
-                  <h1 className="text-center">Turtlehead Tacos Locations - {c_addressRegionDisplayName}</h1>
+                  <h1 className="text-center">Locations - {c_addressRegionDisplayName}</h1>
                   <p className="text-2xl text-center">{updatedDescription}</p>
               </div>
               <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4">

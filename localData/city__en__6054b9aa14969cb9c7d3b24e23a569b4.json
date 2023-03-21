@@ -40,30 +40,37 @@
 	"c_addressRegionDisplayName": "New York",
 	"dm_directoryChildren": [
 		{
+			"id": "location5",
 			"name": "Turtlehead Tacos",
 			"slug": "location5-midtown-manhattan"
 		},
 		{
+			"id": "location6",
 			"name": "Turtlehead Tacos",
 			"slug": "location6-chelsea"
 		},
 		{
+			"id": "location7",
 			"name": "Turtlehead Tacos",
 			"slug": "location7-noho"
 		},
 		{
+			"id": "location1",
 			"name": "Turtlehead Tacos",
 			"slug": "location1-meatpacking"
 		},
 		{
+			"id": "location2",
 			"name": "Turtlehead Tacos",
 			"slug": "location2-86th-and-madison"
 		},
 		{
+			"id": "location3",
 			"name": "Turtlehead Tacos",
 			"slug": "location3-upper-west-side"
 		},
 		{
+			"id": "location4",
 			"name": "Turtlehead Tacos",
 			"slug": "location4-best-buy-union-square"
 		}

@@ -40,6 +40,7 @@
 	"c_addressRegionDisplayName": "California",
 	"dm_directoryChildren": [
 		{
+			"id": "location8",
 			"name": "Turtlehead Tacos",
 			"slug": "location8-san-francisco"
 		}

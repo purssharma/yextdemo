@@ -68,7 +68,7 @@ export const getPath: GetPath<TemplateProps> = ({document}) => {
   };
 };
 
- const Country: Template<TemplateRenderProps> = ({
+const Country: Template<TemplateRenderProps> = ({
   relativePrefixToRoot,
   path,
   document,
@@ -82,15 +82,14 @@ export const getPath: GetPath<TemplateProps> = ({document}) => {
     dm_directoryParents,
     dm_directoryChildren
   } = document;
-
- 
-  
+  console.log(dm_directoryChildren);
   const childrenDivs = dm_directoryChildren && dm_directoryChildren.map((entity:any) => (
-    <div>
-      <a key="uRL" href={relativePrefixToRoot + entity.slug} className="font-bold text-2xl text-blue-700 hover:underline">
-        {entity.name} 
-      </a>
-    </div>
+    
+      <div>
+        <a key="uRL" href={relativePrefixToRoot + entity.slug} className="font-bold text-2xl text-blue-700 hover:underline">
+          {entity.name} 
+        </a>
+      </div>
   ));
 
   var updatedDescription;
@@ -101,18 +100,17 @@ export const getPath: GetPath<TemplateProps> = ({document}) => {
   }
 
   return (
-    <>
-      
+    <>      
         <div className="centered-container">         
-          <div className="section space-y-14 px-10">
-            <div className="space-y-6">
-              <h1 className="text-center">Turtlehead Tacos Locations - {c_addressRegionDisplayName}</h1>
-              <p className="text-2xl text-center">{updatedDescription}</p>
-            </div>
-            <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4">
-                {childrenDivs}
-            </div>
-          </div>         
+            <div className="section space-y-14 px-10">
+                <div className="space-y-6">
+                    <h1 className="text-center">Locations - {c_addressRegionDisplayName}</h1>
+                    <p className="text-2xl text-center">{updatedDescription}</p>
+                </div>
+                <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4">
+                    {childrenDivs}
+                </div>
+            </div>         
         </div>
       
     </>

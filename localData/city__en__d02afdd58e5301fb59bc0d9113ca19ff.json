@@ -40,22 +40,27 @@
 	"c_addressRegionDisplayName": "Florida",
 	"dm_directoryChildren": [
 		{
+			"id": "location12",
 			"name": "Turtlehead Tacos",
 			"slug": "location12-doral"
 		},
 		{
+			"id": "location13",
 			"name": "Turtlehead Tacos",
 			"slug": "location13-pinecrest"
 		},
 		{
+			"id": "location16",
 			"name": "Turtlehead Tacos",
 			"slug": "location16-dadeland"
 		},
 		{
+			"id": "location14",
 			"name": "Turtlehead Tacos",
 			"slug": "location14-west-kendall"
 		},
 		{
+			"id": "location15",
 			"name": "Turtlehead Tacos",
 			"slug": "location15-tropicaire"
 		}
