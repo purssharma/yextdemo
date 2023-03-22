@@ -41,6 +41,7 @@
 	"description": "Welcome to Florida, located in the great nation of !",
 	"dm_directoryChildren": [
 		{
+			"id": "banner-bank-directory_us_fl_miami",
 			"name": "Miami",
 			"slug": "miami"
 		}

@@ -28,9 +28,19 @@ export const config: TemplateConfig = {
       "slug",
       "dm_directoryParents.name",
       "dm_directoryParents.slug",
+      "dm_directoryParents.dm_directoryChildren.name",
+      "dm_directoryParents.dm_directoryChildren.slug",
+      "dm_directoryParents.dm_directoryChildren.id",
       "dm_directoryParents.meta",
       "dm_directoryChildren.name",
       "dm_directoryChildren.slug",    
+      "dm_directoryChildren.id",    
+      "dm_directoryChildren.dm_directoryChildren.name",
+      "dm_directoryChildren.dm_directoryChildren.slug",    
+      "dm_directoryChildren.dm_directoryChildren.id",    
+      "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.name", 
+      "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.slug",    
+      "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.id",    
       
     ],
     localization: {
@@ -82,11 +92,12 @@ const Country: Template<TemplateRenderProps> = ({
     dm_directoryParents,
     dm_directoryChildren
   } = document;
-  console.log(dm_directoryChildren);
   const childrenDivs = dm_directoryChildren && dm_directoryChildren.map((entity:any) => (
     
-      <div>
-        <a key="uRL" href={relativePrefixToRoot + entity.slug} className="font-bold text-2xl text-blue-700 hover:underline">
+    <div>
+     
+     
+        <a key="uRL" href={"/" + entity.id} className="font-bold text-2xl text-blue-700 hover:underline">
           {entity.name} 
         </a>
       </div>

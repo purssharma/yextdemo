@@ -87,14 +87,22 @@
         "meta",
         "name",
         "description",
+        "address",
         "c_addressRegionDisplayName",
         "slug",
+        "dm_directoryParents.dm_directoryChildren.name",
+        "dm_directoryParents.dm_directoryChildren.slug",
+        "dm_directoryParents.dm_directoryChildren.id",
         "dm_directoryParents.name",
         "dm_directoryParents.slug",
         "dm_directoryParents.meta",
         "dm_directoryChildren.name",
         "dm_directoryChildren.id",
-        "dm_directoryChildren.slug"
+        "dm_directoryChildren.slug",
+        "dm_directoryChildren.address",
+        "dm_directoryChildren.dm_directoryChildren.name",
+        "dm_directoryChildren.dm_directoryChildren.slug",
+        "dm_directoryChildren.dm_directoryChildren.id"
       ],
       "localization": {
         "locales": [
@@ -120,9 +128,19 @@
         "slug",
         "dm_directoryParents.name",
         "dm_directoryParents.slug",
+        "dm_directoryParents.dm_directoryChildren.name",
+        "dm_directoryParents.dm_directoryChildren.slug",
+        "dm_directoryParents.dm_directoryChildren.id",
         "dm_directoryParents.meta",
         "dm_directoryChildren.name",
-        "dm_directoryChildren.slug"
+        "dm_directoryChildren.slug",
+        "dm_directoryChildren.id",
+        "dm_directoryChildren.dm_directoryChildren.name",
+        "dm_directoryChildren.dm_directoryChildren.slug",
+        "dm_directoryChildren.dm_directoryChildren.id",
+        "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.name",
+        "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.slug",
+        "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.id"
       ],
       "localization": {
         "locales": [
@@ -196,6 +214,7 @@
         "dm_directoryParents.slug",
         "dm_directoryParents.meta",
         "dm_directoryChildren.name",
+        "dm_directoryChildren.id",
         "dm_directoryChildren.slug"
       ],
       "localization": {

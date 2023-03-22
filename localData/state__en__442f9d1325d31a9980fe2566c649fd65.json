@@ -41,10 +41,12 @@
 	"description": "Welcome to New York, located in the great nation of !",
 	"dm_directoryChildren": [
 		{
+			"id": "banner-bank-directory_us_ny_new_york",
 			"name": "New York",
 			"slug": "new-york"
 		},
 		{
+			"id": "banner-bank-directory_us_ny_albany",
 			"name": "Albany",
 			"slug": "albany"
 		}

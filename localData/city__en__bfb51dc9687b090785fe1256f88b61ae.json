@@ -40,6 +40,13 @@
 	"c_addressRegionDisplayName": "California",
 	"dm_directoryChildren": [
 		{
+			"address": {
+				"city": "San Francisco",
+				"countryCode": "US",
+				"line1": "1717 Harrison St",
+				"postalCode": "94103",
+				"region": "CA"
+			},
 			"id": "location8",
 			"name": "Turtlehead Tacos",
 			"slug": "location8-san-francisco"
@@ -47,6 +54,13 @@
 	],
 	"dm_directoryParents": [
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us",
+					"name": "US",
+					"slug": "us"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_root",
@@ -58,6 +72,28 @@
 			"slug": "banner-bank"
 		},
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us_il",
+					"name": "IL",
+					"slug": "il"
+				},
+				{
+					"id": "banner-bank-directory_us_ny",
+					"name": "NY",
+					"slug": "ny"
+				},
+				{
+					"id": "banner-bank-directory_us_ca",
+					"name": "CA",
+					"slug": "ca"
+				},
+				{
+					"id": "banner-bank-directory_us_fl",
+					"name": "FL",
+					"slug": "fl"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_country",
@@ -69,6 +105,13 @@
 			"slug": "us"
 		},
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us_ca_san_francisco",
+					"name": "San Francisco",
+					"slug": "san-francisco"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_region",

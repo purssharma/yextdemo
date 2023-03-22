@@ -40,36 +40,85 @@
 	"c_addressRegionDisplayName": "New York",
 	"dm_directoryChildren": [
 		{
+			"address": {
+				"city": "New York",
+				"countryCode": "US",
+				"line1": "529 5th Ave",
+				"postalCode": "10017",
+				"region": "NY"
+			},
 			"id": "location5",
 			"name": "Turtlehead Tacos",
 			"slug": "location5-midtown-manhattan"
 		},
 		{
+			"address": {
+				"city": "New York",
+				"countryCode": "US",
+				"line1": "60 W 23rd St",
+				"postalCode": "10010",
+				"region": "NY"
+			},
 			"id": "location6",
 			"name": "Turtlehead Tacos",
 			"slug": "location6-chelsea"
 		},
 		{
+			"address": {
+				"city": "New York",
+				"countryCode": "US",
+				"line1": "622 Broadway",
+				"postalCode": "10012",
+				"region": "NY"
+			},
 			"id": "location7",
 			"name": "Turtlehead Tacos",
 			"slug": "location7-noho"
 		},
 		{
+			"address": {
+				"city": "New York",
+				"countryCode": "US",
+				"line1": "61 9th Ave",
+				"postalCode": "10011",
+				"region": "NY"
+			},
 			"id": "location1",
 			"name": "Turtlehead Tacos",
 			"slug": "location1-meatpacking"
 		},
 		{
+			"address": {
+				"city": "New York",
+				"countryCode": "US",
+				"line1": "1281 Lexington Avenue",
+				"postalCode": "10028",
+				"region": "NY"
+			},
 			"id": "location2",
 			"name": "Turtlehead Tacos",
 			"slug": "location2-86th-and-madison"
 		},
 		{
+			"address": {
+				"city": "New York",
+				"countryCode": "US",
+				"line1": "1880 Broadway",
+				"postalCode": "10023",
+				"region": "NY"
+			},
 			"id": "location3",
 			"name": "Turtlehead Tacos",
 			"slug": "location3-upper-west-side"
 		},
 		{
+			"address": {
+				"city": "New York",
+				"countryCode": "US",
+				"line1": "52 E 14th St",
+				"postalCode": "10003",
+				"region": "NY"
+			},
 			"id": "location4",
 			"name": "Turtlehead Tacos",
 			"slug": "location4-best-buy-union-square"
@@ -77,6 +126,13 @@
 	],
 	"dm_directoryParents": [
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us",
+					"name": "US",
+					"slug": "us"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_root",
@@ -88,6 +144,28 @@
 			"slug": "banner-bank"
 		},
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us_il",
+					"name": "IL",
+					"slug": "il"
+				},
+				{
+					"id": "banner-bank-directory_us_ny",
+					"name": "NY",
+					"slug": "ny"
+				},
+				{
+					"id": "banner-bank-directory_us_ca",
+					"name": "CA",
+					"slug": "ca"
+				},
+				{
+					"id": "banner-bank-directory_us_fl",
+					"name": "FL",
+					"slug": "fl"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_country",
@@ -99,6 +177,18 @@
 			"slug": "us"
 		},
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us_ny_new_york",
+					"name": "New York",
+					"slug": "new-york"
+				},
+				{
+					"id": "banner-bank-directory_us_ny_albany",
+					"name": "Albany",
+					"slug": "albany"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_region",

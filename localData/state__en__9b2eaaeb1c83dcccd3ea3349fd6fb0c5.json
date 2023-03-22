@@ -41,6 +41,7 @@
 	"description": "Welcome to California, located in the great nation of !",
 	"dm_directoryChildren": [
 		{
+			"id": "banner-bank-directory_us_ca_san_francisco",
 			"name": "San Francisco",
 			"slug": "san-francisco"
 		}

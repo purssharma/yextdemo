@@ -4,11 +4,8 @@ import { GetHeadConfig, GetPath, HeadConfig, Template, TemplateConfig, TemplateP
 import { SearchHeadlessProvider } from "@yext/search-headless-react";
 import { FilterSearch, VerticalResults, ResultsCount, AppliedFilters, ApplyFiltersButton, LocationBias, Pagination } from "@yext/search-ui-react";
 import { Location } from "../types/search/locations";
-import MapboxMap from "../components/MapboxMap";
-import MapPin from "../components/MapPin";
 import LocationCard from "../components/locatorPage/LocationCard";
 import PageLayout from "../components/layouts/PageLayout";
-import Geocode from "react-geocode";
 import UseMyLocation from "../components/locatorPage/UseMyLocation"
 import { Address } from "../types/search/locations";
 import { useSearchActions } from "@yext/search-headless-react";

@@ -40,16 +40,37 @@
 	"c_addressRegionDisplayName": "Illinois",
 	"dm_directoryChildren": [
 		{
+			"address": {
+				"city": "Chicago",
+				"countryCode": "US",
+				"line1": "1000 W North Ave",
+				"postalCode": "60642",
+				"region": "IL"
+			},
 			"id": "location9",
 			"name": "Turtlehead Tacos Test",
 			"slug": "location9-north-avenue"
 		},
 		{
+			"address": {
+				"city": "Chicago",
+				"countryCode": "US",
+				"line1": "2100 N Elston Ave",
+				"postalCode": "60614",
+				"region": "IL"
+			},
 			"id": "location10",
 			"name": "Turtlehead Tacos",
 			"slug": "location10-bucktown"
 		},
 		{
+			"address": {
+				"city": "Chicago",
+				"countryCode": "US",
+				"line1": "555 W Roosevelt Rd",
+				"postalCode": "60607",
+				"region": "IL"
+			},
 			"id": "location11",
 			"name": "Turtlehead Tacos",
 			"slug": "location11-south-loop"
@@ -57,6 +78,13 @@
 	],
 	"dm_directoryParents": [
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us",
+					"name": "US",
+					"slug": "us"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_root",
@@ -68,6 +96,28 @@
 			"slug": "banner-bank"
 		},
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us_il",
+					"name": "IL",
+					"slug": "il"
+				},
+				{
+					"id": "banner-bank-directory_us_ny",
+					"name": "NY",
+					"slug": "ny"
+				},
+				{
+					"id": "banner-bank-directory_us_ca",
+					"name": "CA",
+					"slug": "ca"
+				},
+				{
+					"id": "banner-bank-directory_us_fl",
+					"name": "FL",
+					"slug": "fl"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_country",
@@ -79,6 +129,13 @@
 			"slug": "us"
 		},
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us_il_chicago",
+					"name": "Chicago",
+					"slug": "chicago"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_region",

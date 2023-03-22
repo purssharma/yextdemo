@@ -30,6 +30,7 @@ export const config: TemplateConfig = {
       "dm_directoryParents.slug",
       "dm_directoryParents.meta",
       "dm_directoryChildren.name",
+      "dm_directoryChildren.id",
       "dm_directoryChildren.slug",
     ],
     localization: {
@@ -82,13 +83,17 @@ export const getPath: GetPath<TemplateProps> = ({document}) => {
     dm_directoryParents,
     dm_directoryChildren
   } = document; 
-  
+ 
   const childrenDivs = dm_directoryChildren && dm_directoryChildren.map((entity:any) => (
+    <> 
+    
     <div>
-      <a key="uRL" href={relativePrefixToRoot + entity.slug} className="font-bold text-2xl text-blue-700 hover:underline">
+      <a key="uRL" href={"/" + entity.id} className="font-bold text-2xl text-blue-700 hover:underline">
         {entity.name} 
       </a>
     </div>
+    </>
+   
   ));
 
   var updatedDescription;

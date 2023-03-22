@@ -40,26 +40,61 @@
 	"c_addressRegionDisplayName": "Florida",
 	"dm_directoryChildren": [
 		{
+			"address": {
+				"city": "Miami",
+				"countryCode": "US",
+				"line1": "10760 NW 17th St",
+				"postalCode": "33172",
+				"region": "FL"
+			},
 			"id": "location12",
 			"name": "Turtlehead Tacos",
 			"slug": "location12-doral"
 		},
 		{
+			"address": {
+				"city": "Miami",
+				"countryCode": "US",
+				"line1": "11905 S Dixie Hwy",
+				"postalCode": "33156",
+				"region": "FL"
+			},
 			"id": "location13",
 			"name": "Turtlehead Tacos",
 			"slug": "location13-pinecrest"
 		},
 		{
+			"address": {
+				"city": "Miami",
+				"countryCode": "US",
+				"line1": "8450 S Dixie Hwy",
+				"postalCode": "33143",
+				"region": "FL"
+			},
 			"id": "location16",
 			"name": "Turtlehead Tacos",
 			"slug": "location16-dadeland"
 		},
 		{
+			"address": {
+				"city": "Miami",
+				"countryCode": "US",
+				"line1": "12495 SW 88th St",
+				"postalCode": "33186",
+				"region": "FL"
+			},
 			"id": "location14",
 			"name": "Turtlehead Tacos",
 			"slug": "location14-west-kendall"
 		},
 		{
+			"address": {
+				"city": "Miami",
+				"countryCode": "US",
+				"line1": "7751 Bird Rd",
+				"postalCode": "33155",
+				"region": "FL"
+			},
 			"id": "location15",
 			"name": "Turtlehead Tacos",
 			"slug": "location15-tropicaire"
@@ -67,6 +102,13 @@
 	],
 	"dm_directoryParents": [
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us",
+					"name": "US",
+					"slug": "us"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_root",
@@ -78,6 +120,28 @@
 			"slug": "banner-bank"
 		},
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us_il",
+					"name": "IL",
+					"slug": "il"
+				},
+				{
+					"id": "banner-bank-directory_us_ny",
+					"name": "NY",
+					"slug": "ny"
+				},
+				{
+					"id": "banner-bank-directory_us_ca",
+					"name": "CA",
+					"slug": "ca"
+				},
+				{
+					"id": "banner-bank-directory_us_fl",
+					"name": "FL",
+					"slug": "fl"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_country",
@@ -89,6 +153,13 @@
 			"slug": "us"
 		},
 		{
+			"dm_directoryChildren": [
+				{
+					"id": "banner-bank-directory_us_fl_miami",
+					"name": "Miami",
+					"slug": "miami"
+				}
+			],
 			"meta": {
 				"entityType": {
 					"id": "ce_region",

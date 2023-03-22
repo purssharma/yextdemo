@@ -24,14 +24,24 @@ export const config: TemplateConfig = {
       "meta",
       "name",
       "description",
+      "address",
       "c_addressRegionDisplayName",
       "slug",
+      "dm_directoryParents.dm_directoryChildren.name",
+      "dm_directoryParents.dm_directoryChildren.slug",
+      "dm_directoryParents.dm_directoryChildren.id",
       "dm_directoryParents.name",
       "dm_directoryParents.slug",
       "dm_directoryParents.meta",
       "dm_directoryChildren.name",
       "dm_directoryChildren.id",
       "dm_directoryChildren.slug",
+      "dm_directoryChildren.address", 
+      "dm_directoryChildren.dm_directoryChildren.name",
+      "dm_directoryChildren.dm_directoryChildren.slug",    
+      "dm_directoryChildren.dm_directoryChildren.id",    
+      
+
     ],
     localization: {
       locales: ["en"],
@@ -78,18 +88,22 @@ export const getPath: GetPath<TemplateProps> = ({document}) => {
     _site,
     name,
     description,
+    address,
     c_addressRegionDisplayName,
     dm_directoryParents,
     dm_directoryChildren
   } = document; 
   
   const childrenDivs = dm_directoryChildren && dm_directoryChildren.map((entity:any) => {
-    console.log(__meta,"__meta");
- return(   <div>
-      <a key="uRL" href={"/" + entity.id} className="font-bold text-2xl text-blue-700 hover:underline">
-        {entity.name} 
-      </a>
-    </div>)
+        {
+          console.log(entity, "entity333333")
+    }
+    
+      return(   <div>
+            <a key="uRL" href={entity.address.countryCode +"/"+ entity.address.region + "/"+ entity.address.city +"/"+entity.id + ".html"} className="font-bold text-2xl text-blue-700 hover:underline">
+              {entity.name} 
+            </a>
+          </div>)
 });
 
   var updatedDescription;

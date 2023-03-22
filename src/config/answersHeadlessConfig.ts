@@ -1,10 +1,10 @@
 
 export const AnswerExperienceConfig = {
   limit:3,
-  locale: "en_GB",
-  apiKey : "7c8850036d23608202edec80fc2f1001",
+  locale: "en",
+  apiKey : "c8b27fe30bbc490c8d955050c5c35468",
   verticalKey : "locations",
-  experienceKey : "donaldson",
+  experienceKey : "test-search",
   experienceVersion: "STAGING",
   locationRadius: 804672,
   sessionTrackingEnabled: true,
