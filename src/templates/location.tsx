@@ -50,6 +50,17 @@ import { Fade, Slide } from "react-awesome-reveal";
 import MgmTimber from "../components/locationDetail/MgmTimber";
 import { AnswerExperienceConfig } from "../config/answersHeadlessConfig";
 
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+// Default theme
+import '@splidejs/react-splide/css';
+// or other themes
+import '@splidejs/react-splide/css/skyblue';
+import '@splidejs/react-splide/css/sea-green';
+
+// or only core styles
+import '@splidejs/react-splide/css/core';
+
+
 /**
  * Required when Knowledge Graph data is used for a template.
  */
@@ -383,12 +394,15 @@ breadcrumbScheme.push({
           <div className="container">
             <div className="sec-title"><h2 className="">Gallery</h2></div>
             <div className="nearby-sec-inner">
-                <ul className="gallery-images">            
-                      {photoGallery.map((photos: any) => {
+                <Splide aria-label="My Favorite Images">
+
+                     {photoGallery.map((photos: any) => {
                            // console.log(photos.image.url);
-                            return (<li><img src={photos.image.url} alt={photos.image.alternateText} /><h4>{photos.description}</h4></li>)
+                   return ( <SplideSlide><img src={photos.image.url} alt={photos.image.alternateText} /><h4>{photos.description}</h4> </SplideSlide>)
                       })}
-                </ul>
+             
+              </Splide>
+
             </div>
           </div>
           
