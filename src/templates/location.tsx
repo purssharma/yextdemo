@@ -60,7 +60,6 @@ import '@splidejs/react-splide/css/sea-green';
 // or only core styles
 import '@splidejs/react-splide/css/core';
 
-
 /**
  * Required when Knowledge Graph data is used for a template.
  */
